@@ -6,9 +6,11 @@ Each layout component has a very verbose, long, detailed name. The point is so y
 
 These components can just wrap your main screen components each, and handle adding a safe-area for you. Your App should still have a SafeAreaProvider at the top level somewhere.
 
-## NoScroll_KeyboardAvoid
+## NoNav_NoScroll_KeyboardAvoid
 
-This is very similar to the previous one. Should likely be used outside your Main Nav. Has the ability to extend the background color of your app outside the safe-area, differently on the top and bottom. These can be optionally be passed in as props: `topColor` or `bottomColor`.
+This component is good for maybe a Login screen. It's outside your apps main Nav, and there is nothing to Scroll, but the view will avoid keyboards for inputs.
+
+Has the ability to extend the background color of your app outside the safe-area, differently on the top and bottom. These can be optionally be passed in as props: `topColor` or `bottomColor`.
 
 ## NoScroll_YesNav_KeyboardAvoid
 
